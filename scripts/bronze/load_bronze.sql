@@ -3,7 +3,7 @@
 Load Bronze Layer (Data Source -> Bronze)
 ==================================================
 Script Purpose:
-  This script loads data into the 'bronze' schema from external CSV files.
+  	This script loads data into the 'bronze' schema from external CSV files.
 	Using 'COPY' command in PostgreSQL to load data from CSV Files to bronze tables.
 	For the 'FROM' command, adjust the CSV data source path for each komputer.
 	Run the scripts one by one in order from the top.
