@@ -4,9 +4,9 @@ DDL Script: Create Silver Tables
 ========================================
 Script Purpose:
     This script creates tables in the 'silver' schema,
-	  make sure there are no duplicate table names.
-	  Run the scripts one by one in order from the top.
-	  Add new column 'dwh_create_date' with TIMESTAMP/DATETIME type for each table.
+	make sure there are no duplicate table names.
+	Run the scripts one by one in order from the top.
+	Add new column 'dwh_create_date' with TIMESTAMP/DATETIME type for each table.
 */
 
 CREATE TABLE silver.crm_cust_info(
