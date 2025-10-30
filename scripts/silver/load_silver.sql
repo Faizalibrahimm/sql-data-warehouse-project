@@ -5,7 +5,7 @@ Load Silver Layer (Bronze -> Silver)
 Script Purpose:
 	This script performs Cleaning and ETL from the bronze schema to the silver schema.
 	Run the scripts one by one in order from the top and when running the script, 
-	also understand the code from the “ check_data_quality.sql " file in the tests folder.
+	also understand the code from the “ quality_check_silver.sql " file in the tests folder.
 */
 
 
